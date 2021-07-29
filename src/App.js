@@ -2,7 +2,7 @@ import Exercicios from './components/Exercicios';
 import Repeticao from './components/Repetcao';
 import Serie from './components/Series';
 
-import './App.css'
+import './App.css';
 
 function App() {
   return (
@@ -12,7 +12,6 @@ function App() {
       <Repeticao />
     </div>
   );
-
 }
 
 export default App;
