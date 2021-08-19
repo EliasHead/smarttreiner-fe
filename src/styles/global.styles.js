@@ -16,4 +16,16 @@ export const GlobalStyles = createGlobalStyle`
   body {
     font-size: 1.6rem;
   }
+
+  ul, ol {
+    padding: 1rem 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  h1 {
+    font-family: roboto, arial;
+  }
 `;

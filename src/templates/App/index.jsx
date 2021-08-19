@@ -1,13 +1,9 @@
-import Exercicios from '../../components/Exercicios';
-import Repeticao from '../../components/Repetcao';
-import Serie from '../../components/Series';
+import Card from '../../components/Card';
 
 function Home() {
   return (
     <div className="App">
-      <Exercicios />
-      <Serie />
-      <Repeticao />
+      <Card />
     </div>
   );
 }

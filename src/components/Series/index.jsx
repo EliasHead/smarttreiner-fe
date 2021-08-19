@@ -1,8 +1,9 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
+
 import * as Styled from './styles';
 
-export const Repeticao = () => {
+export const Series = () => {
   const [treinos, setTreinos] = useState([]);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(async () => {
@@ -18,13 +19,13 @@ export const Repeticao = () => {
   return (
     <Styled.Container>
       <div>
-        <h1>Repetições</h1>
+        <h1>serie</h1>
         {treinos.map((t) => (
           <div key={t.id}>
             {t.treino.map((h) => (
               <ul key={h.id}>
-                {h.repeticaos.map((j) => (
-                  <li key={j.id}>{j.name}</li>
+                {h.series.map((j) => (
+                  <li key={j.id}>{j.title}</li>
                 ))}
               </ul>
             ))}
